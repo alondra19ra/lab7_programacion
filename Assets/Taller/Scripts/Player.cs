@@ -32,6 +32,7 @@ public class Player : MonoBehaviour
             // controlador =    controlador == gamepadcontrol? keybord : gamepad;
 
             controller = controller == gamepadController ? keyboardController : gamepadController;
+            Debug.Log(controller);
         }
 
         if (Input.GetKeyDown(KeyCode.M))
